@@ -1,0 +1,118 @@
+body {
+    font-family: georgia;
+    background-color: rgb(236, 220, 228);
+    background: url(pic/bg-love2.jpg);
+}
+
+.visually-hidden {
+    font-family: "Georgia";
+    text-align: center;
+    font-size: 50px;
+    color: rgb(236, 0, 118);
+    border-radius: 35%;
+    text-decoration-line: underline overline;
+    margin: 15px;
+    padding: 10px;
+    font-style: bold;
+    vertical-align: middle;
+}
+
+.visually-visible {
+    text-align: center;
+    background-color: rgb(236, 0, 118);
+    color: whitesmoke;
+    border-radius: 30px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+.features-item {
+    border: 3px dotted rgb(255, 0, 128);
+    border-color: rgb(255, 0, 128);
+    border-radius: 22px;
+    line-height: 10px;
+    padding-bottom: 10px;
+    margin: 10px;
+    padding: 5px;
+    font-style: italic;
+    background: url(pic/lines.gif);
+    background-repeat: round;
+}
+
+a:hover {
+    color: white;
+    background-color: rgb(255, 0, 128);
+    border-radius: 25px;
+    padding: 3px;
+    font-size: 32px;
+}
+
+a:focus {
+    color: white;
+    background-color: rgb(255, 0, 128);
+}
+
+h3 {
+    color: rgb(236, 0, 118);
+    text-decoration-line: underline;
+    font-weight: 900;
+}
+
+.features-item p {
+    color: purple;
+}
+
+.footer-copyright {
+    padding: 20px;
+}
+
+footer {
+    background-color: grey;
+}
+
+.main-navigation li {
+    float: left;
+    text-align: center;
+    margin: 25px;
+    vertical-align: bottom;
+    width: 200px;
+    height: 100px;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+}
+
+li {
+    list-style-type: none;
+}
+
+nav li {
+    font-size: 25px;
+    height: 100px;
+    vertical-align: bottom;
+    text-align: end;
+}
+
+.ContApp {
+    height: 270px;
+}
+
+.ca {
+    display: inline-block;
+    height: 150px;
+    width: 600px;
+    vertical-align: middle;
+    text-align: left;
+    padding: 20px;
+}
+
+.appointment {
+    text-align: left;
+    padding-left: 170px;
+}
+
+.appointment h2 {
+    text-align: center;
+}
